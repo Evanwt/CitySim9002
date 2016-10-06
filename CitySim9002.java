@@ -294,13 +294,13 @@ public class CitySim9002 {
 		visitor4.type = "Blogger";
 		visitor5.type = "Business Person";
 	    
-	    Assert.assertFalse(visitor5.equals(visitor1));
+	        Assert.assertFalse(visitor5.equals(visitor1));
 		Assert.assertEquals(false, dislike(visitor1," "));
 		Assert.assertEquals(false, dislike(visitor2,"Gym"));
 		Assert.assertEquals(true, dislike(visitor3,"The Cathedral of Learning"));
 		Assert.assertEquals(true, dislike(visitor4, "The Cathedral of Learning"));
 		Assert.assertEquals(true, dislike(visitor5, "The Point"));
-	    Assert.assertEquals(false, dislike(visitor2, "Downtown"));
+	        Assert.assertEquals(false, dislike(visitor2, "Downtown"));
  }
   
   
